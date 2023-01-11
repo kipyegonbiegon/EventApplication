@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/sp_select_eventtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/sp_select_venue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/sp_select_bakery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/sp_select_decorator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/sp_select_caterer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_select_event_name"
+            android:layout_width="match_parent"
+            android:hint="Event name"
+            android:layout_height="wrap_content" />
+
+        <DatePicker
+            android:id="@+id/dp_select_event_date"
+            android:layout_width="match_parent"
+            android:calendarViewShown="false"
+            android:layout_height="wrap_content" />
+
+        <TimePicker
+            android:id="@+id/tp_select_event_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_select_event_length"
+            android:layout_width="match_parent"
+            android:hint="Total people"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_select_event_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+
+</ScrollView>

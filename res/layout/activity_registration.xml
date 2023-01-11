@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbb23" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity" >
+
+        <EditText
+            android:id="@+id/editText1_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Fullname"
+            android:textColorHint="#ff0000" >
+
+            <requestFocus>
+            </requestFocus>
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText4_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Address"
+            android:inputType="textMultiLine"
+            android:textColorHint="#ff0000" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Username"
+            android:textColorHint="#ff0000" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText3_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#ff0000" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText5_ConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="ConfirmPassword"
+            android:inputType="textPassword"
+            android:textColorHint="#ff0000" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText6_Contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Contact"
+            android:maxLength="10"
+            android:inputType="number"
+            android:textColorHint="#ff0000" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText7_EmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="EmailId"
+            android:textColorHint="#ff0000" >
+        </EditText>
+
+        <Button
+            android:id="@+id/button1_Submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Submit" >
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

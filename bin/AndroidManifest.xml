@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eventapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".AddVender"
+            android:label="@string/title_activity_add_vender" >
+        </activity>
+        <activity
+            android:name=".AdminActivity"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name=".ListAll_Event_Register_Activity"
+            android:label="@string/title_activity_list_all__event__register_" >
+        </activity>
+        <activity
+            android:name=".ListAllVendorActivity"
+            android:label="@string/title_activity_list_all_vendor" >
+        </activity>
+        <activity
+            android:name=".ListUserAllActivity"
+            android:label="@string/title_activity_list_user_all" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        
+        
+        <activity
+            android:name=".UserformActivity"
+            android:label="@string/title_activity_user_list" >
+        </activity>
+        
+        <activity
+            android:name=".UserListActivity"
+            android:label="@string/title_activity_user_list" >
+        </activity>
+        <activity
+            android:name=".VendorActivity"
+            android:label="@string/title_activity_vendor" >
+        </activity>
+    </application>
+
+</manifest>
